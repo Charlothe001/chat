@@ -3,7 +3,7 @@ session_start();
 include('conexao.php');
 ?>
 
-<h2>Olá, <?php echo $_SESSION['nome']; ?></h2>
+<h2>olá, <?php echo $_SESSION['nome']; ?></h2>
 <h2><a href="logout.php">Sair</a></h2>
 
 <br/><h1>Menu Principal</h1>
